@@ -1,6 +1,5 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&display=swap');
-
 body {
     background-image: url(ImgenesLogin/fondo.jpg);
     background-repeat: no-repeat;
@@ -10,7 +9,7 @@ body {
     justify-content: center;  
 }
 
-.form {
+.form { 
     background: rgba(217, 217, 217, 0.4);
     padding: 100px;
     width: 900px;
