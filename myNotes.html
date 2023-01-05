@@ -8,17 +8,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="noteStyle.css" type="text/css">
+
 </head>
 
 <body>
     <!-- MIS NOTAS -->
 
     <!--Barra lateral-->
-    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-        aria-controls="offcanvasExample">
-        Ícono
-    </button>
-
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasExampleLabel">NoteScesi</h5>
@@ -42,12 +39,15 @@
                 </ul>
             </div>
         </div>
-    </div> -->
+    </div>
 
     <!-- Barra de Navegación -->
-    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">NoteScesi</a>
+            <a class="navbar-brand" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                NoteScesi
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -60,18 +60,81 @@
                 <a href="" class="nav-item btn btn-secondary">Perfil</a>
             </div>
         </div>
-    </nav> -->
+    </nav>
 
     <!-- Nota -->
-    <!-- <div class="card" style="width: 23rem;">
-        <div class="card-body">
-            <h3 class="card-title">Titulo</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic tenetur dignissimos
-                    pariatur eveniet odio dolor eaque sed eum nulla. Quos commodi laborum ex animi et excepturi, odit
-                    voluptatem quo cum.</p>
-                <a href="#" class="btn btn-primary">Etiqueta</a>
-        </div>
+
+    <!-- Pruebas -->
+    <!-- <div style="position: relative;">
+        <div class="card nota-prueba">Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Minima illo culpa ipsum quidem vel quo
+            aperiam,
+            ratione quia ab tempora facilis harum iste modi? Quasi aperiam odio tempore repellat dolor?</div>
+        <div class="background-prueba"></div>
     </div> -->
+
+    <div class="row">
+        <div class="col-4">
+            <div class="card-group border border-dark nota ">
+                <div class="card-body">
+                    <h3 class="card-title" style="padding: 10px;">Titulo</h3>
+                    <p class="card-text border border-bottom border-top nota-parrafo">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perferendis voluptas itaque sed
+                        maiores
+                        saepe, nulla vel eaque vero. Facere consectetur, laborum doloremque eos deserunt voluptates
+                        autem
+                        accusamus corporis iste?</p>
+                    <button class="btn btn-primary" style="margin: 0px 0px 0px 12px;">Etiqueta</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card-group border border-dark nota ">
+                <div class="card-body">
+                    <h3 class="card-title" style="padding: 10px;">Titulo</h3>
+                    <p class="card-text border border-bottom border-top nota-parrafo">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perferendis voluptas itaque sed
+                        maiores
+                        saepe, nulla vel eaque vero. Facere consectetur, laborum doloremque eos deserunt voluptates
+                        autem
+                        accusamus corporis iste?</p>
+                    <button class="btn btn-primary" style="margin: 0px 0px 0px 12px;">Etiqueta</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card-group border border-dark nota ">
+                <div class="card-body">
+                    <h3 class="card-title" style="padding: 10px;">Titulo</h3>
+                    <p class="card-text border border-bottom border-top nota-parrafo">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perferendis voluptas itaque sed
+                        maiores
+                        saepe, nulla vel eaque vero. Facere consectetur, laborum doloremque eos deserunt voluptates
+                        autem
+                        accusamus corporis iste?</p>
+                    <button class="btn btn-primary" style="margin: 0px 0px 0px 12px;">Etiqueta</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card-group border border-dark nota ">
+                <div class="card-body">
+                    <h3 class="card-title" style="padding: 10px;">Titulo</h3>
+                    <p class="card-text border border-bottom border-top nota-parrafo">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam perferendis voluptas itaque sed
+                        maiores
+                        saepe, nulla vel eaque vero. Facere consectetur, laborum doloremque eos deserunt voluptates
+                        autem
+                        accusamus corporis iste?</p>
+                    <button class="btn btn-primary" style="margin: 0px 0px 0px 12px;">Etiqueta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 </body>
 
 </html>

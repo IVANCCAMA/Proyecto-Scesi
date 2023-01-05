@@ -1,0 +1,31 @@
+.nota {
+    margin: 30px;
+    width: 23rem;
+    height: 16rem;
+}
+
+.nota-parrafo {
+    overflow: hidden;
+    padding: 10px;
+    height: 8.6rem;
+}
+
+.nota-prueba {
+    overflow: hidden;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin: 100px;
+    /* background-color: aquamarine; */
+}
+
+.background-prueba {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    margin: 88px 100px;
+    background-color: steelblue;
+    opacity: 0.5;
+    z-index: -1;
+    transform: rotate(3deg);
+}
